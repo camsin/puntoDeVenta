@@ -1,7 +1,7 @@
 extends ../layout
 
 block content
-    h1 Proveedores
+    h1 Productos
     hr
     p Proveedores de nuestra tienda
     table(class='table table-striped table-hover')
@@ -9,20 +9,16 @@ block content
             tr
                 th #
                 th Nombre
-                th Apellido(s)
-                th Empresa
-                th Correo
-                th Numero
+                th Precio
+                th Cantidad
                 th
         tbody
-            each supplier in suppliers
+            each product in products
                 tr
-                    th(scope="row") #{supplier._id}
-                    td #{supplier.name}
-                    td #{supplier.lastName}
-                    td #{supplier.company}
-                    td #{supplier.email}
-                    td #{supplier.phone}
+                    th(scope="row") #{product._id}
+                    td #{product.name}
+                    td #{product.price}
+                    td #{product.quantity}
 
                     td
                         button(class='btn btn-primary btn-sm')
