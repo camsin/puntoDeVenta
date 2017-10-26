@@ -11,7 +11,7 @@ Tarea: Crear 3 modelos.
 
 Ahora una vez instalado las herramientas del paso anterior vamos a descargar el proyecto desde el repositorio de github y a hecharlo a andar, realizando los siguientes pasos:
 
- 1. Copiar la url SSH del repositorio de github (git@github.com:luis190991/DRAW17-punto-venta.git).
+ 1. Copiar la url SSH del repositorio de github (git@github.com:/camsin/puntoDeVenta.git).
  2. Utilizar el comando [git clone](https://git-scm.com/docs/git-clone) via terminal.
  3. Entrar a la carpeta del proyecto (cd DRAW17-punto-venta).
  4. Utilizar el comando `npm install` .
